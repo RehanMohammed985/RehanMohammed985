@@ -6,7 +6,7 @@
 
 <em>currently exploring consensus mechanisms for adversarial multi-agent verification, and quota-aware orchestration over rate-limited data sources.</em>
 
-<strong>building.</strong>
+<strong>building something great.</strong>
 
 </div>
 
