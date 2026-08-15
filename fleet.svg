@@ -9,75 +9,75 @@
   <rect width="840" height="250" rx="14" fill="#131110"/>
   <rect x="0.5" y="0.5" width="839" height="249" rx="14" fill="none" stroke="#2c2926"/>
 
-  <!-- edges -->
+  <!-- first-hop edges from the orchestrator -->
   <g stroke="#3a3630" stroke-width="1.2" fill="none">
-    <path id="e1" d="M 175 125 C 300 30, 420 26, 560 26"/>
-    <path id="e2" d="M 175 125 C 300 62, 420 58, 560 58"/>
-    <path id="e3" d="M 175 125 C 310 92, 430 90, 560 90"/>
-    <path id="e4" d="M 175 125 C 320 125, 430 125, 560 125"/>
-    <path id="e5" d="M 175 125 C 310 158, 430 160, 560 160"/>
-    <path id="e6" d="M 175 125 C 300 188, 420 192, 560 192"/>
-    <path id="e7" d="M 175 125 C 300 218, 420 224, 560 224" stroke-dasharray="4 4"/>
+    <path id="a1" d="M 150 125 C 250 60, 320 46, 400 42"/>
+    <path id="a2" d="M 150 125 C 260 110, 340 118, 430 122"/>
+    <path id="a3" d="M 150 125 C 250 185, 330 198, 410 202"/>
+  </g>
+  <!-- the mesh: agents spawning agents -->
+  <g stroke="#2f2b27" stroke-width="1" fill="none">
+    <path id="b1" d="M 400 42 C 440 55, 480 62, 520 68"/>
+    <path id="b2" d="M 520 68 C 560 55, 600 42, 642 36"/>
+    <path id="b3" d="M 430 122 C 480 124, 530 127, 578 130"/>
+    <path id="b4" d="M 578 130 C 620 120, 660 108, 700 100"/>
+    <path id="b5" d="M 578 130 C 630 142, 680 155, 728 168"/>
+    <path id="b6" d="M 410 202 C 455 198, 500 194, 542 190"/>
+    <path id="b7" d="M 542 190 C 585 198, 625 206, 662 214"/>
+    <path id="b8" d="M 520 68 C 545 88, 560 105, 578 130" stroke-dasharray="3 4"/>
+    <path id="b9" d="M 662 214 C 690 200, 712 186, 728 168" stroke-dasharray="3 4"/>
+    <path id="b10" d="M 642 36 C 668 56, 686 76, 700 100" stroke-dasharray="3 4"/>
   </g>
 
-  <!-- outbound work: ember pulses -->
+  <!-- work flowing out -->
   <g fill="#E85D3D">
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="0s"><mpath href="#e1"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="0.4s"><mpath href="#e2"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="0.8s"><mpath href="#e3"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="1.2s"><mpath href="#e4"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="1.6s"><mpath href="#e5"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="2s"><mpath href="#e6"/></animateMotion></circle>
-    <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" begin="2.4s"><mpath href="#e7"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"><mpath href="#a1"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0.8s"><mpath href="#a2"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.6s"><mpath href="#a3"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="1.1s"><mpath href="#b1"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="1.9s"><mpath href="#b2"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="1.7s"><mpath href="#b3"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="2.4s"><mpath href="#b4"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="2.6s"><mpath href="#b5"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="2.5s"><mpath href="#b6"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="2s" repeatCount="indefinite" begin="3.2s"><mpath href="#b7"/></animateMotion></circle>
   </g>
 
-  <!-- returning evidence: green pulses -->
+  <!-- evidence flowing back -->
   <g fill="#3fae8a">
-    <circle r="2.5"><animateMotion dur="3.3s" repeatCount="indefinite" begin="1.3s" keyPoints="1;0" keyTimes="0;1"><mpath href="#e2"/></animateMotion></circle>
-    <circle r="2.5"><animateMotion dur="3.3s" repeatCount="indefinite" begin="2.2s" keyPoints="1;0" keyTimes="0;1"><mpath href="#e4"/></animateMotion></circle>
-    <circle r="2.5"><animateMotion dur="3.3s" repeatCount="indefinite" begin="0.5s" keyPoints="1;0" keyTimes="0;1"><mpath href="#e6"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="3s" repeatCount="indefinite" begin="1.4s" keyPoints="1;0" keyTimes="0;1"><mpath href="#a1"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="3s" repeatCount="indefinite" begin="2.3s" keyPoints="1;0" keyTimes="0;1"><mpath href="#a2"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="3s" repeatCount="indefinite" begin="0.6s" keyPoints="1;0" keyTimes="0;1"><mpath href="#a3"/></animateMotion></circle>
+    <circle r="2"><animateMotion dur="2.6s" repeatCount="indefinite" begin="1.8s" keyPoints="1;0" keyTimes="0;1"><mpath href="#b4"/></animateMotion></circle>
+    <circle r="2"><animateMotion dur="2.6s" repeatCount="indefinite" begin="2.9s" keyPoints="1;0" keyTimes="0;1"><mpath href="#b7"/></animateMotion></circle>
   </g>
 
   <!-- orchestrator -->
-  <circle cx="175" cy="125" r="46" fill="url(#glow)">
+  <circle cx="150" cy="125" r="46" fill="url(#glow)">
     <animate attributeName="r" values="42;52;42" dur="3.4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="175" cy="125" r="26" fill="#131110" stroke="#E85D3D" stroke-width="2"/>
-  <text x="175" y="130" text-anchor="middle" fill="#f5efe6" font-size="13" font-weight="bold">me</text>
-  <text x="175" y="186" text-anchor="middle" fill="#8a837a" font-size="10" letter-spacing="2">ORCHESTRATE</text>
+  <circle cx="150" cy="125" r="26" fill="#131110" stroke="#E85D3D" stroke-width="2"/>
+  <text x="150" y="130" text-anchor="middle" fill="#f5efe6" font-size="13" font-weight="bold">me</text>
 
-  <!-- agents -->
-  <g>
-    <circle cx="560" cy="26" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="30" fill="#f5efe6" font-size="12">research swarms</text>
-    <circle cx="560" cy="58" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="62" fill="#f5efe6" font-size="12">adversarial verifiers</text>
-    <circle cx="560" cy="90" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="1.3s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="94" fill="#f5efe6" font-size="12">data pipelines</text>
-    <circle cx="560" cy="125" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="1.7s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="129" fill="#f5efe6" font-size="12">drones &amp; hardware</text>
-    <circle cx="560" cy="160" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="164" fill="#f5efe6" font-size="12">autonomous builds</text>
-    <circle cx="560" cy="192" r="7" fill="#131110" stroke="#E85D3D" stroke-width="1.6">
-      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.8s" begin="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="196" fill="#f5efe6" font-size="12">distribution</text>
-    <circle cx="560" cy="224" r="7" fill="#131110" stroke="#8a837a" stroke-width="1.6" stroke-dasharray="3 3">
-      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2.8s" begin="2.9s" repeatCount="indefinite"/>
-    </circle>
-    <text x="578" y="228" fill="#8a837a" font-size="12" font-style="italic">whatever's next</text>
+  <!-- the fleet: unnamed, uncounted -->
+  <g fill="#131110" stroke="#E85D3D" stroke-width="1.5">
+    <circle cx="400" cy="42" r="7"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="122" r="7"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="202" r="7"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="68" r="5.5"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="578" cy="130" r="5.5"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="542" cy="190" r="5.5"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.7s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="642" cy="36" r="4.5"><animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.7s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="100" r="4.5"><animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.7s" begin="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="728" cy="168" r="4.5"><animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.7s" begin="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="662" cy="214" r="4.5"><animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.7s" begin="3.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- the edge of the map: agents still forming -->
+  <g fill="none" stroke="#5c564e" stroke-width="1.2" stroke-dasharray="2 3">
+    <circle cx="790" cy="60" r="4"><animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="3.6s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="140" r="4"><animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="3.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="215" r="4"><animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="3.6s" begin="2.4s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- footer -->
   <text x="24" y="236" fill="#5c564e" font-size="10" letter-spacing="1">AGENTS PROPOSE · EVIDENCE DECIDES</text>
 </svg>

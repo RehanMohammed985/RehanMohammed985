@@ -2,7 +2,7 @@
 
 # Rehan Mohammed
 
-<img src="fleet.svg" width="840" alt="the fleet: one orchestrator, five agent lanes, evidence flowing back" />
+<img src="fleet.svg" width="840" alt="the fleet: one orchestrator, a growing mesh of agents, evidence flowing back" />
 
 <em>currently exploring consensus mechanisms for adversarial multi-agent verification, and quota-aware orchestration over rate-limited data sources.</em>
 
@@ -10,11 +10,7 @@
 
 </div>
 
-- Co-founded a startup
-- Published research
-- Wrote drone automation algorithms, where a bug is a crash, not a stack trace
-- Scaled tech inside startups, first commit to real users
-- Now: fleets of AI agents that work while I sleep
+I've co-founded a startup and scaled tech inside others, first commit to real users. I've published research, and I've written drone automation algorithms, where a bug is a crash rather than a stack trace. The habit that ties it together: build the thing that does the work, then build the thing that builds it. These days that means fleets of agents working while I sleep.
 
 ### Two things I firmly believe
 
