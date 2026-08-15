@@ -10,7 +10,7 @@
 
 </div>
 
-I've co-founded a startup and scaled tech inside others, first commit to real users. I've published research, and I've written drone automation algorithms, where a bug is a crash rather than a stack trace. The habit that ties it together: build the thing that does the work, then build the thing that builds it. These days that means fleets of agents working while I sleep.
+Prior experience in co-founding a startup and scaled tech inside others, first commit to real users. I've published research, and I've written drone automation algorithms, where a bug is a crash rather than a stack trace. The habit that ties it together: build the thing that does the work, then build the thing that builds it. These days that means fleets of agents working while I sleep.
 
 ### Two things I firmly believe
 
