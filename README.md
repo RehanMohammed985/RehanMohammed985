@@ -2,11 +2,13 @@
 
 # Rehan Mohammed
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=E85D3D&center=true&vCenter=true&width=560&lines=multi-agent+coordination;drones+%26+hardware;startups+%26+scaling+tech;currently%3A+building+in+stealth+%F0%9F%A4%AB" alt="typing" />
+<img src="fleet.svg" width="840" alt="the fleet: one orchestrator, five agent lanes, evidence flowing back" />
+
+<em>currently: building in stealth 🤫</em>
 
 </div>
 
-Built a startup of my own, worked inside startups, watched tech scale from first commit to real users. Experimented with drones and hardware, where nothing counts until it flies. These days I spend most of my time coordinating fleets of AI agents: fan-out research swarms, adversarial verifiers, autonomous build cycles that ship while I sleep.
+Co-founded a startup. Published research. Wrote drone automation algorithms where a bug means a crash, not a stack trace. Scaled tech inside startups from first commit to real users. Now I coordinate fleets of AI agents that research, verify, build, and ship while I sleep.
 
 ### Two things I firmly believe
 
