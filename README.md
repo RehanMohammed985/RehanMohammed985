@@ -23,7 +23,7 @@ Most people use AI as autocomplete. I run it like a company, and I've spent seri
 
 ## Where I've been
 
-- **Startups, end to end.** Market research to deployed product to distribution, repeatedly, solo. I've built and shipped full-stack products with hundreds of tests, live users, and daily release discipline.
+- **Building and scaling.** Prior experience building a startup of my own and working inside startups, seeing tech scale from first commit to real users. Market research to deployed product to distribution: full-stack builds with hundreds of tests, live users, and daily release discipline.
 - **Drones and hardware.** I've experimented on the physical side too: drone platforms and hardware builds, where feedback loops are unforgiving and "it compiles" means nothing until it flies. Hardware teaches you what software lets you forget: reality does not accept excuses.
 - **Agents as a whole.** From single-call tooling to full orchestration frameworks, MCP servers, and agent-driven data pipelines. The through-line is the same question: how much of a company can one obsessed person operate?
 
