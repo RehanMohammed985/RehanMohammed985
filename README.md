@@ -4,7 +4,9 @@
 
 <img src="fleet.svg" width="840" alt="the fleet: one orchestrator, five agent lanes, evidence flowing back" />
 
-<em>currently: building in stealth 🤫</em>
+<em>currently exploring consensus mechanisms for adversarial multi-agent verification, and quota-aware orchestration over rate-limited data sources.</em>
+
+<strong>building.</strong>
 
 </div>
 
