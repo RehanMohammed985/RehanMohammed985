@@ -8,7 +8,11 @@
 
 </div>
 
-Co-founded a startup. Published research. Wrote drone automation algorithms where a bug means a crash, not a stack trace. Scaled tech inside startups from first commit to real users. Now I coordinate fleets of AI agents that research, verify, build, and ship while I sleep.
+- Co-founded a startup
+- Published research
+- Wrote drone automation algorithms, where a bug is a crash, not a stack trace
+- Scaled tech inside startups, first commit to real users
+- Now: fleets of AI agents that work while I sleep
 
 ### Two things I firmly believe
 
