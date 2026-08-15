@@ -10,8 +10,8 @@ Built a startup of my own, worked inside startups, watched tech scale from first
 
 ### Two things I firmly believe
 
-1. **Obsession can win you the world.** Talent is common, capital is rented. The person who can't stop thinking about the problem beats both.
-2. **Agents as a Service (AaaS) is the future.** Software used to sell the tool. The next era sells the worker. I already operate this way.
+1. **Obsession can win you the world.**
+2. **Agents as a Service (AaaS) is the future.**
 
 <div align="center">
 
