@@ -17,6 +17,14 @@ Prior experience in co-founding a startup and scaled tech inside others, first c
 1. **Obsession can win you the world.**
 2. **Agents as a Service (AaaS) is the future.**
 
+### Open source
+
+**[runtape](https://github.com/RehanMohammed985/runtape)** [![PyPI](https://img.shields.io/pypi/v/runtape)](https://pypi.org/project/runtape/) finds which part of the context made an AI agent misbehave, checks which fix holds, and writes a regression test so it stays fixed.
+
+**Contributions**
+
+- [**tensorchord/Awesome-LLMOps**](https://github.com/tensorchord/Awesome-LLMOps) · [Add runtape to Observability](https://github.com/tensorchord/Awesome-LLMOps/pull/875) · merged Oct 2026
+
 <div align="center">
 
 `TypeScript` `Next.js` `Python` `Postgres` `MCP` `Serverless`
