@@ -1,0 +1,32 @@
+name: Update lines-of-code counter
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # LOC_TOKEN: a read-only token that can see private repos too.
+      # Without it, only public repos are counted and the number would drop, so skip.
+      - name: Count lines and redraw header
+        env:
+          GH_TOKEN: ${{ secrets.LOC_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "LOC_TOKEN secret not set; skipping."; exit 0; fi
+          python scripts/loc.py header.svg
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add header.svg
+          git diff --cached --quiet || (git commit -m "Update lines-of-code counter" && git push)
