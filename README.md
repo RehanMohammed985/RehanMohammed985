@@ -1,23 +1,26 @@
-### Hi, I'm Rehan 👋
+<img src="header.svg" width="840" alt="Rehan Mohammed: I build AI agents that do real work" />
 
-I build reliability tooling for AI agents: finding out **why** an agent did the wrong thing, and making sure it stays fixed.
+Student, researcher and startup co-founder. I build AI agents and the tools around them, and I do research on how multiple agents work together.
 
-<img src="runtape.svg" width="840" alt="runtape finds the hidden instruction in a vendor email that made an agent forward an invoice, then writes a regression test" />
+### AI agents
 
-### What I'm working on
+- **[voice-agents](https://github.com/RehanMohammed985/voice-agents)**: write a mission in plain English and the agent calls a list of companies, takes notes and books meetings.
+- **[runtape](https://github.com/RehanMohammed985/runtape)**: finds which part of the context made an AI agent misbehave and writes a regression test for the fix. On [PyPI](https://pypi.org/project/runtape/).
+- **[JARVIS](https://github.com/RehanMohammed985/JARVIS)**: a fully local voice assistant built on LangGraph, Ollama and a 3D web HUD.
 
-- **[runtape](https://github.com/RehanMohammed985/runtape)** [![PyPI](https://img.shields.io/pypi/v/runtape)](https://pypi.org/project/runtape/): counterfactual debugging for AI agents. It reruns a bad decision without each piece of context to find the cause, tests candidate fixes, and writes a regression test. Listed in [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps/pull/875).
-- **Multi-agent research**: [selective communication](https://github.com/RehanMohammed985/Selective-Communication-in-Multi-agents) and [scalable coordination](https://github.com/RehanMohammed985/scalable-marl-coordination) in multi-agent RL.
+### Products
 
-### Other projects
+- **[Kinesis](https://github.com/RehanMohammed985/Kinesis)**: lets people who can't move or speak talk and get things done using a $350 EEG headset.
+- **[FirstDibs](https://github.com/RehanMohammed985/first-dibs)**: job alerts minutes after a role is posted, before it reaches LinkedIn.
+- **[1600](https://github.com/RehanMohammed985/1600-modern-SAT-prep)**: an adaptive SAT/ACT study app.
+- **[advance-cube-solver](https://github.com/RehanMohammed985/advance-cube-solver)**: scans a Rubik's cube with a webcam and guides each move with AR.
 
-- **[advance-cube-solver](https://github.com/RehanMohammed985/advance-cube-solver)**: scans a Rubik's cube with a webcam, solves it, and guides each move with AR overlays.
-- **[cursor-mobile-bridge](https://github.com/RehanMohammed985/cursor-mobile-bridge)**: control Cursor on your Mac from Discord on your phone.
+### Research
 
-### Background
+- **[Selective communication](https://github.com/RehanMohammed985/Selective-Communication-in-Multi-agents)** and **[scalable coordination](https://github.com/RehanMohammed985/scalable-marl-coordination)** in multi-agent RL
+- **[EMPATH](https://github.com/RehanMohammed985/EMPATH)**: simulating how LLM agents with different personalities change each other's opinions
+- **[Autonomous drone navigation](https://github.com/RehanMohammed985/autonomous-drone-navigation)** with computer vision and RL
 
-Co-founded a startup, published research, and shipped production software at other companies.
-
-**Stack:** Python · TypeScript · Next.js · Postgres · MCP
+**Stack:** Python · TypeScript · Next.js · Postgres · LangGraph · MCP
 
 📫 rehanmoin91@gmail.com
