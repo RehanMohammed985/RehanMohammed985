@@ -1,34 +1,23 @@
-<div align="center">
+### Hi, I'm Rehan 👋
 
-# Rehan Mohammed
+I build reliability tooling for AI agents: finding out **why** an agent did the wrong thing, and making sure it stays fixed.
 
-<img src="fleet.svg" width="840" alt="the fleet: one orchestrator, a growing mesh of agents, evidence flowing back" />
+<img src="runtape.svg" width="840" alt="runtape finds the hidden instruction in a vendor email that made an agent forward an invoice, then writes a regression test" />
 
-<em>currently exploring consensus mechanisms for adversarial multi-agent verification, and quota-aware orchestration over rate-limited data sources.</em>
+### What I'm working on
 
-<strong>building something great.</strong>
+- **[runtape](https://github.com/RehanMohammed985/runtape)** [![PyPI](https://img.shields.io/pypi/v/runtape)](https://pypi.org/project/runtape/): counterfactual debugging for AI agents. It reruns a bad decision without each piece of context to find the cause, tests candidate fixes, and writes a regression test. Listed in [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps/pull/875).
+- **Multi-agent research**: [selective communication](https://github.com/RehanMohammed985/Selective-Communication-in-Multi-agents) and [scalable coordination](https://github.com/RehanMohammed985/scalable-marl-coordination) in multi-agent RL.
 
-</div>
+### Other projects
 
-Prior experience in co-founding a startup and scaled tech inside others. I've published research, and I've written  automation algorithms. My personal philosophy: build the thing that does the work, then build the thing that builds it. These days that means fleets of agents working while I sleep.
+- **[advance-cube-solver](https://github.com/RehanMohammed985/advance-cube-solver)**: scans a Rubik's cube with a webcam, solves it, and guides each move with AR overlays.
+- **[cursor-mobile-bridge](https://github.com/RehanMohammed985/cursor-mobile-bridge)**: control Cursor on your Mac from Discord on your phone.
 
-### Two things I firmly believe
+### Background
 
-1. **Obsession can win you the world.**
-2. **Agents as a Service (AaaS) is the future.**
+Co-founded a startup, published research, and shipped production software at other companies.
 
-### Open source
+**Stack:** Python · TypeScript · Next.js · Postgres · MCP
 
-**[runtape](https://github.com/RehanMohammed985/runtape)** [![PyPI](https://img.shields.io/pypi/v/runtape)](https://pypi.org/project/runtape/) finds which part of the context made an AI agent misbehave, checks which fix holds, and writes a regression test so it stays fixed.
-
-**Contributions**
-
-- [**tensorchord/Awesome-LLMOps**](https://github.com/tensorchord/Awesome-LLMOps) · [Add runtape to Observability](https://github.com/tensorchord/Awesome-LLMOps/pull/875) · merged Oct 2026
-
-<div align="center">
-
-`TypeScript` `Next.js` `Python` `Postgres` `MCP` `Serverless`
-
-📫 **rehanmoin91@gmail.com** · I answer every email.
-
-</div>
+📫 rehanmoin91@gmail.com
